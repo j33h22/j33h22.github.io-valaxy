@@ -1,5 +1,7 @@
 import { defineValaxyConfig } from 'valaxy'
 import type { UserThemeConfig } from 'valaxy-theme-yun'
+import { addonComponents } from 'valaxy-addon-components'
+import { addonWaline } from 'valaxy-addon-waline'
 
 // add icons what you will need
 const safelist = [
@@ -35,7 +37,19 @@ export default defineValaxyConfig<UserThemeConfig>({
     footer: {
       since: 2024,
       },
+
+      addons: [
+        addonComponents(),
+        addonWaline({
+          serverURL: 'https://waline-eight-gules.vercel.app/',
+          // pageview: true,
+          comment: true,
+        }),
+      ],
+
   },
 
   unocss: { safelist },
+
+
 })

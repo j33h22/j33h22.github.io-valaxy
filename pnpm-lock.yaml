@@ -8,6 +8,15 @@ dependencies:
   valaxy:
     specifier: 0.17.2
     version: 0.17.2(@types/markdown-it@13.0.7)(@unhead/shared@1.8.10)(postcss@8.4.33)(typescript@5.3.3)(unhead@1.8.10)
+  valaxy-addon-components:
+    specifier: ^0.0.2
+    version: 0.0.2
+  valaxy-addon-twikoo:
+    specifier: ^0.0.3
+    version: 0.0.3(valaxy@0.17.2)
+  valaxy-addon-waline:
+    specifier: ^0.1.1
+    version: 0.1.1(typescript@5.3.3)(valaxy@0.17.2)
   valaxy-theme-yun:
     specifier: 0.17.2
     version: 0.17.2
@@ -1493,6 +1502,19 @@ packages:
       - vue
     dev: false
 
+  /@waline/client@2.15.8(typescript@5.3.3):
+    resolution: {integrity: sha512-EBL7RXJUJs742miTvOU0Vt8NEmeJ63EN5TtSsYZfzjUdvEtlv+JsBbS5uiz3C9v5qV7Hz+XDZdc8nc13mG9vNQ==}
+    engines: {node: '>=14'}
+    dependencies:
+      '@vueuse/core': 10.7.2(vue@3.4.15)
+      autosize: 6.0.1
+      marked: 4.3.0
+      vue: 3.4.15(typescript@5.3.3)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - typescript
+    dev: false
+
   /acorn-jsx@5.3.2(acorn@8.11.3):
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
     peerDependencies:
@@ -1615,6 +1637,10 @@ packages:
 
   /asynckit@0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
+    dev: false
+
+  /autosize@6.0.1:
+    resolution: {integrity: sha512-f86EjiUKE6Xvczc4ioP1JBlWG7FKrE13qe/DxBCpe8GCipCq2nFw73aO8QEBKHfSbYGDN5eB9jXWKen7tspDqQ==}
     dev: false
 
   /balanced-match@1.0.2:
@@ -2812,6 +2838,12 @@ packages:
       uc.micro: 2.0.0
     dev: false
 
+  /marked@4.3.0:
+    resolution: {integrity: sha512-PRsaiG84bK+AMvxziE/lCFss8juXjNaWzVbN5tXAm4XjeaS9NAHhop+PjQxz2A9h8Q4M/xGmzP8vqNwy6JeK0A==}
+    engines: {node: '>= 12'}
+    hasBin: true
+    dev: false
+
   /mdn-data@2.0.30:
     resolution: {integrity: sha512-GaqWWShW4kv/G9IEucWScBx9G1/vsFZZJUO+tD26M8J8z3Kw5RDQjaoZe03YAClgeS/SWPOcb4nkFBTEi5DUEA==}
     dev: false
@@ -3703,6 +3735,30 @@ packages:
     dependencies:
       querystringify: 2.2.0
       requires-port: 1.0.0
+    dev: false
+
+  /valaxy-addon-components@0.0.2:
+    resolution: {integrity: sha512-J6JeNTagohF9fNvYaYiOwVHQGuhoWamy1P01mEUfzreacaJ3CqzJU1G/uSFMTvm3CXvMo8OAQCwqa+OqBG0dkw==}
+    dev: false
+
+  /valaxy-addon-twikoo@0.0.3(valaxy@0.17.2):
+    resolution: {integrity: sha512-8ISPqSF3uto8jCceaDuGzeq1utJuH3oJ3mqtz9h1lQhXkP3jwReh8Sa3bnfhHlcfCUCoNK2E5dj8CNK2tVgHpg==}
+    peerDependencies:
+      valaxy: latest
+    dependencies:
+      valaxy: 0.17.2(@types/markdown-it@13.0.7)(@unhead/shared@1.8.10)(postcss@8.4.33)(typescript@5.3.3)(unhead@1.8.10)
+    dev: false
+
+  /valaxy-addon-waline@0.1.1(typescript@5.3.3)(valaxy@0.17.2):
+    resolution: {integrity: sha512-IvVefifccHJP8asOGEBLf88298Xu1A6atH8qYo3bb+gKvUJBAzch0EvrvvFnP/J2ICHOwQbitSTYBHOqDY481g==}
+    peerDependencies:
+      valaxy: latest
+    dependencies:
+      '@waline/client': 2.15.8(typescript@5.3.3)
+      valaxy: 0.17.2(@types/markdown-it@13.0.7)(@unhead/shared@1.8.10)(postcss@8.4.33)(typescript@5.3.3)(unhead@1.8.10)
+    transitivePeerDependencies:
+      - '@vue/composition-api'
+      - typescript
     dev: false
 
   /valaxy-theme-yun@0.17.2:

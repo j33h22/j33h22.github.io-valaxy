@@ -47,11 +47,6 @@ export default defineSiteConfig({
     },
   ],
 
-  search: {
-    enable: true,
-    type: 'fuse',
-  },
-
   sponsor: {
     enable: false,
     title: '我很可爱，请给我钱！',
@@ -76,4 +71,14 @@ export default defineSiteConfig({
       },
     ],
   },
+
+  search: {
+    enable: true,
+    type: 'fuse',
+  },
+
+  comment: {
+    enable: true,
+  },
+
 })
