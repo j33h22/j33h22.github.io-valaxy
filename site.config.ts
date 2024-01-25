@@ -7,7 +7,10 @@ export default defineSiteConfig({
   subtitle: '',
   author: {
     name: 'Ju33Huang22',
-    avatar: 'https://github.com/j33h22.png'
+    avatar: 'https://github.com/j33h22.png',
+    status: {
+      emoji: '😊',
+    },
   },
   favicon: 'https://github.com/j33h22.png',
   description: '分享我的感受。',
