@@ -1,0 +1,38 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Ju33Huang22的空间",
+    "home_page_url": "https://j33h22.github.io/",
+    "feed_url": "https://j33h22.github.io/feed.json",
+    "description": "分享我的感受。",
+    "icon": "https://github.com/j33h22.png",
+    "author": {
+        "name": "Ju33Huang22",
+        "url": "https://valaxy.site"
+    },
+    "items": [
+        {
+            "id": "",
+            "content_html": "<h1>前言</h1>\n<p>首先我自己没有对 Golang 很深了解，一切都在学习中，不过还好目前为止学习得还算顺利，毕竟写的都是人话。</p>\n<p>在本文章中我不会去锐评有关 musl 的东西，毕竟我不会C，没啥资格聊这个</p>\n",
+            "url": "https://j33h22.github.io/posts/go-on-musl",
+            "title": "关于 Golang 二进制文件在 musl 作为 主要 libc 的 Linux 发行版的适配记录",
+            "date_modified": "2024-01-28T02:14:55.000Z",
+            "date_published": "2024-01-27T18:38:12.406Z",
+            "author": {
+                "name": "Ju33Huang22",
+                "url": "https://valaxy.site"
+            }
+        },
+        {
+            "id": "",
+            "content_html": "<h2>Valaxy</h2>\n<p>Next Generation Static Blog Framework.</p>\n<p>Write your first post!</p>\n<h2>Usage</h2>\n<p>Modify `valaxy</p>\n",
+            "url": "https://j33h22.github.io/posts/hello-valaxy",
+            "title": "Hello, Valaxy!",
+            "date_modified": "2022-04-01T00:00:00.000Z",
+            "date_published": "2022-04-01T00:00:00.000Z",
+            "author": {
+                "name": "Ju33Huang22",
+                "url": "https://valaxy.site"
+            }
+        }
+    ]
+}

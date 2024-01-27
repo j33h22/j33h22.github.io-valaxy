@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://j33h22.github.io/</id>
+    <title>Ju33Huang22的空间</title>
+    <updated>2024-01-27T18:39:01.116Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>Ju33Huang22</name>
+        <email>i@valaxy.site</email>
+        <uri>https://valaxy.site</uri>
+    </author>
+    <link rel="alternate" href="https://j33h22.github.io/"/>
+    <link rel="self" href="https://j33h22.github.io/atom.xml"/>
+    <subtitle>分享我的感受。</subtitle>
+    <logo>https://github.com/j33h22.png</logo>
+    <icon>https://j33h22.github.io/favicon.svg</icon>
+    <rights>CC BY-NC-SA 4.0 2024 © Ju33Huang22</rights>
+    <entry>
+        <title type="html"><![CDATA[关于 Golang 二进制文件在 musl 作为 主要 libc 的 Linux 发行版的适配记录]]></title>
+        <id>https://j33h22.github.io/posts/go-on-musl</id>
+        <link href="https://j33h22.github.io/posts/go-on-musl"/>
+        <updated>2024-01-28T02:14:55.000Z</updated>
+        <content type="html"><![CDATA[<h1>前言</h1>
+<p>首先我自己没有对 Golang 很深了解，一切都在学习中，不过还好目前为止学习得还算顺利，毕竟写的都是人话。</p>
+<p>在本文章中我不会去锐评有关 musl 的东西，毕竟我不会C，没啥资格聊这个</p>
+]]></content>
+        <author>
+            <name>Ju33Huang22</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2024-01-27T18:38:12.406Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello, Valaxy!]]></title>
+        <id>https://j33h22.github.io/posts/hello-valaxy</id>
+        <link href="https://j33h22.github.io/posts/hello-valaxy"/>
+        <updated>2022-04-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<h2>Valaxy</h2>
+<p>Next Generation Static Blog Framework.</p>
+<p>Write your first post!</p>
+<h2>Usage</h2>
+<p>Modify `valaxy</p>
+]]></content>
+        <author>
+            <name>Ju33Huang22</name>
+            <email>i@valaxy.site</email>
+            <uri>https://valaxy.site</uri>
+        </author>
+        <published>2022-04-01T00:00:00.000Z</published>
+    </entry>
+</feed>
